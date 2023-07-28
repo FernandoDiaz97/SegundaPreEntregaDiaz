@@ -19,6 +19,7 @@
     margin-bottom: 20px;
     width: auto;
     height: auto;
-    background-color: cadetblue;
+    background-color: rgb(178, 88, 238);
     font-family: 'Courier New', Courier, monospace;
+    border-radius: 4px;
 }
