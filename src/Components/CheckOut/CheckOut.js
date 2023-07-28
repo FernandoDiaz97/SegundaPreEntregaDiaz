@@ -8,7 +8,7 @@ import CheckoutForm from '../CheckOutForm/CheckOutForm'
 const CheckOut = () => {
     const [loading, setLoading] = useState(false)
     const [orderId, setOrderId] = useState('')
-    const { cart, total, clearCart } = useContext(Cartcontext)
+    const { cart,  clearCart } = useContext(Cartcontext)
 
     const createOrder = async ({ name, phone, email }) => {
         setLoading(true)
@@ -19,7 +19,7 @@ const CheckOut = () => {
                     name, phone, email
                 },
                 items: cart,
-                total: total,
+                
                 date: Timestamp.fromDate(new Date())
             }
             const batch = writeBatch(db)
@@ -62,6 +62,8 @@ const CheckOut = () => {
     if (loading) {
         return <h1>Se esta generando su orden...</h1>
     }
+
+
         
     if (orderId) {
         return <h1>El id de su orden es: {orderId}</h1>
