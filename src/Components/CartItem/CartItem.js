@@ -1,3 +1,5 @@
+import "./CartItem.css";
+
 const CartItem = ({ id, name, price, quantity }) => {
     return (
         <div className="cart-item">

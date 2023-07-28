@@ -1,7 +1,12 @@
-.grid.CardItem{
+.CardItem{
 
     display: grid;
     grid-template-rows: 1fr, 1fr, 1fr;
     background-color: aliceblue;
 
+}
+
+.Info{
+    color: aquamarine;
+    background-color: aliceblue;
 }

@@ -1,6 +1,7 @@
 .menu{
     
-
+    justify-content: center;
+    text-align: center;
    
 }
 
@@ -11,29 +12,35 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 17px;
     border-color: silver;
-    border-width: 5px;
+    border-width: 1px;
     justify-content: space-around;
     
 }
 
 .Title{
-  
+  font-family:'Times New Roman', Times, serif;
+  color: rgb(118, 231, 126);
+  text-align: center;
+  font-size: 50px;
+  box-shadow: 0px 0px 20px 9px rgb(138, 5, 215);
 
 }
 
 .categorias{
- 
+ justify-content: center;
 }
 
 .Option{
-    justify-content: space-around;
-    background-color: rgb(255, 42, 198);
+    justify-content: center;
+    color: aquamarine;
     padding-left: 20px;
     padding-right: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
-    border-color: silver;
+    border-color: rgb(104, 236, 238);
+    box-shadow: 0px 0px 20px 3px rgb(104, 236, 238);
     border-style: solid;
-    border-width: 3px;
+    border-width: 2px;
     border-radius: 4px;
+    text-align: center;
 }
